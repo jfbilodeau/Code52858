@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jbilodeau\\tmp\\Code-52838\\RedisDemo\\RedisDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jbilodeau\\tmp\\Code-52838\\RedisDemo\\RedisDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jbilodeau\\tmp\\Code-52838\\RedisDemo\\RedisDemo.csproj",
+        "projectName": "RedisDemo",
+        "projectPath": "C:\\Users\\jbilodeau\\tmp\\Code-52838\\RedisDemo\\RedisDemo.csproj",
+        "packagesPath": "C:\\Users\\jbilodeau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbilodeau\\tmp\\Code-52838\\RedisDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jbilodeau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
